@@ -44,7 +44,7 @@ form.addEventListener("submit", function (event) {
 
    const akanName = akanNames[gender][d];
 
-  resultText.textContent = akanName;
+   resultText.textContent = akanName;
   resultSection.classList.add("show");
 });
 
