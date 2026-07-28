@@ -42,7 +42,7 @@ form.addEventListener("submit", function (event) {
   let d = ((4 * CC - 2 * CC - 1) + (45 * YY) + (1026 * (MM + 1)) + DD) % 7;
   d = ((d % 7) + 7) % 7;
 
-  const akanName = akanNames[gender][d];
+   const akanName = akanNames[gender][d];
 
   resultText.textContent = akanName;
   resultSection.classList.add("show");
