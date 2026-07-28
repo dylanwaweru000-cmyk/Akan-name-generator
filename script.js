@@ -5,7 +5,7 @@ const akanNames = {
 
 const form = document.getElementById("akan-form");
 const resultSection = document.getElementById("result");
-const resultText = document.getElementById("result-text");
+const resultText = document.getElementById("result-message");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
