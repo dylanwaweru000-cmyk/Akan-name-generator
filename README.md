@@ -52,11 +52,4 @@ Discover your traditional Akan day name based on your birthdate and gender
 | Friday | Afua |
 | Saturday | Ama |
 
-## Installation and Setup
 
-To run this project locally:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/dylanwaweru000-cmyk/Akan-name-generator.git
