@@ -1,34 +1,34 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Akan-name-generator</title>
+     <title>Discover Your Akan Day Name</title>
      <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <h1>Akan-Name-Generator</h1>
+ <h1>Discover Your Akan Day Name</h1>
 
 
        <p>A simple app that generates traditional Akan day-names (like Kwame, Kofi, Ama, Esi) based on the day of the week a person was born, following the Akan naming tradition from Ghana. Users input a birth date or day, and the app returns the corresponding day-name along with its meaning.</p>
 
 
 
-  <form id="akan-form"></form>
+  <form id="akan-form">
     <div class="form-group">
       <label for="birthdate">Enter your birthdate:</label>
       <input type="date" id="birthdate" name="birthdate" required>
     </div>
 
-    <div class="form-group"></div>
-      <label for="gender">Select your gender:</label>
-       <select id="gender" name="gender" required></select>
-        <option value="">-- Select --</option>
-         <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-    </div>
+     <div class="form-group">
+  <label for="gender">Select your gender:</label>
+  <select id="gender" name="gender" required>
+    <option value="">-- Select --</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+</div>
 
     <button type="submit" id="generate-btn">Generate Name</button>
   </form>
@@ -40,12 +40,17 @@
 Your Akan name will appear here.
     </h5>
   </section>
-</main>
+
 
   <footer>
         <p>&copy; 2026 Akan Name Generator | Built by Dylan</p>
     </footer>
 
+
+
+   <script src="/script.js"></script> 
+</body>
+</html>
 
 
 
