@@ -1,4 +1,4 @@
-#Discover Your Akan Day Name
+# Discover Your Akan Day Name
  
 ## Description
 Discover your traditional Akan day name based on your birthdate and gender
