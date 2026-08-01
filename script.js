@@ -39,12 +39,14 @@ form.addEventListener("submit", function (event) {
   const MM = month;
   const DD = day;
 
-  let d = ((4 * CC - 2 * CC - 1) + (45 * YY) + (1026 * (MM + 1)) + DD) % 7;
-  d = ((d % 7) + 7) % 7;
+   const date = new Date(year, month - 1, day);
+const d = date.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
 
    const akanName = akanNames[gender][d];
 
    resultText.textContent = akanName;
    resultSection.classList.add("show");
 });
+
+ 
 
